@@ -2,10 +2,6 @@ import React from 'react';
 import './style.css';
 import Card from '../../../components/UI/Card';
 
-/**
-* @author
-* @function RecentPosts
-**/
 
 const RecentPosts = (props) => {
   return(
