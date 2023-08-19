@@ -12,6 +12,8 @@ const Post = (props) => {
   return(
         <Layout>
           <BlogPost {...props} />
+          <Sidebar {...props}/>
+          <Card {...props}/>
         </Layout>
    )
 
