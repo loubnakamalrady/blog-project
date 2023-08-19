@@ -2,13 +2,9 @@ import React, { useState, useEffect } from 'react';
 import './style.css';
 import Card from '../UI/Card';
 
-import blogPost from '../../data/blog.json';
+import blogPost from '../../blogJson/blog.json';
 import { NavLink } from 'react-router-dom';
 
-/**
-* @author
-* @function Sidebar
-**/
 
 const Sidebar = (props) => {
 
@@ -31,7 +27,7 @@ const Sidebar = (props) => {
                     <span>About Us</span>
                 </div>
                 <div className="profileImageContainer">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRGAb43NxZswWRLw9RoxC8YwykXlLy_efq2r674Xj0ffRR3D-0P" alt="" />
+                    <img src="https://www.freepik.com/free-psd/3d-rendered-facebook-post-mockup-isolated_36106028.htm#query=react&position=0&from_view=keyword&track=sph" alt="" />
                 </div>
                 <div className="cardBody">
                     <p className="personalBio">This is the blog project of go my code:)</p>

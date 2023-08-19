@@ -3,7 +3,7 @@ import './style.css';
 import Card from '../../components/UI/Card';
 import RecentPosts from './RecentPosts';
 
-import blogData from '../../data/blog.json';
+import blogData from '../../blogJson/blog.json';
 import Layout from '../../components/Layout';
 
 // Component for displaying a side image
@@ -20,7 +20,7 @@ const ImageGallery = (props) => (
   <div className="galleryPost" style={props.galleryStyle}>
     <section style={{ width: props.largeWidth, paddingRight: '15px' }}>
       <div className="mainImageWrapper">
-        <img src={require('../../blogPostImages/' + props.imagesArray[1])} alt="" style={{ width: '100%' }} />
+        <img src={require('../../blogImages/' + props.imagesArray[1])} alt="" style={{ width: '100%' }} />
       </div>
     </section>
     <section className="sideImageWrapper" style={{ width: props.smallWidth }}>
@@ -28,7 +28,7 @@ const ImageGallery = (props) => (
         <SideImage
           key={image}
           height={props.sideImageHeight}
-          src={require('../../blogPostImages/' + image)}
+          src={require('../../blogImages/' + image)}
           alt=""
         />
       ))}

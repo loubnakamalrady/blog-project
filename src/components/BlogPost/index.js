@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './style.css';
 import Card from '../UI/Card';
-import blogData from '../../data/blog.json';
+import blogData from '../../blogJson/blog.json';
 
 const BlogPost = (props) => {
   const [post, setPost] = useState({
@@ -36,7 +36,7 @@ const BlogPost = (props) => {
         </div>
 
         <div className="postImageContainer">
-          <img src={require('../../blogPostImages/' + post.blogImage)} alt="Post Image" />
+          <img src={require('../../blogImages/' + post.blogImage)} alt="Post Image" />
         </div>
 
         <div className="postContent">
