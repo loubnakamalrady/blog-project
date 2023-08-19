@@ -6,6 +6,7 @@ import Hero from './components/Hero';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import ContactUS from './containers/ContactUS';
 import Post from './containers/Post';
+import blog from './blogImages/blogging.jpg' 
 
 function App() {
   return (
@@ -14,6 +15,8 @@ function App() {
       <div className="App">
         <Header />
         <Hero />
+        <Home />
+        <ContactUS/>
         <Routes>
         <Route path="/" exact component={Home} />
         <Route path="/contact-us"  component={ContactUS}/>

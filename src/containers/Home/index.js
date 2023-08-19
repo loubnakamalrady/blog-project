@@ -2,7 +2,7 @@ import React from 'react';
 import './style.css';
 import Card from '../../components/UI/Card';
 import RecentPosts from './RecentPosts';
-
+import blog from '../../blogImages/blogging.jpg' 
 import blogData from '../../blogJson/blog.json';
 import Layout from '../../components/Layout';
 
