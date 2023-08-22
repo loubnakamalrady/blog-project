@@ -1,10 +1,16 @@
 import React from 'react';
-import './style.css';
+import './home.css';
 import Card from '../../components/UI/Card/card';
 import RecentPosts from './RecentPosts/recentPosts';
-import blog from '../../blogImages/blogging.jpg' 
 import blogData from '../../blogJson/blog.json';
 import Layout from '../../components/Layout/layout';
+
+/* 
+The Home component is rendered, which is associated with the root path ("/") in the routing setup.
+The ImageGallery component is used to display an image gallery, indicating the presence of visual content on the home page.
+The RecentPosts component is rendered within the Layout component, suggesting a structured layout for displaying recent blog posts.
+The blogData variable appears to be imported from a JSON file, containing data about blog posts.
+*/
 
 // Component for displaying a side image
 const SideImage = (props) => {

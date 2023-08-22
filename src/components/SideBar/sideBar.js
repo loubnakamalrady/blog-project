@@ -1,10 +1,20 @@
 import React, { useState, useEffect } from 'react';
-import './style.css';
+import './sideBar.css';
 import Card from '../UI/Card/card';
 
 import blogPost from '../../blogJson/blog.json';
 import { NavLink } from 'react-router-dom';
 
+/*
+The Sidebar component represents a sidebar section of a website.
+It imports CSS styles from sideBar.css and a Card component from the specified file path.
+The component uses the useState and useEffect hooks to manage the state of posts.
+The blogPost variable is imported from a JSON file containing blog post data.
+On component mount, the posts state is set with the data from the blogPost variable.
+The rendered output includes multiple instances of the Card component with different content.
+The sidebar displays information such as an "About Us" section, a profile image, a "Social Network" section, and a list of recent blog posts.
+The recent blog posts are dynamically rendered using the map function on the posts array, creating a NavLink component for each post.
+*/
 
 const Sidebar = (props) => {
 

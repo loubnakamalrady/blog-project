@@ -1,5 +1,5 @@
 import React from 'react';
-import './style.css';
+import './recentPosts.css';
 import Card from '../../../components/UI/Card/card';
 
 

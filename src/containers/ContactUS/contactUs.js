@@ -2,6 +2,11 @@ import React from 'react';
 import './contactUs.css';
 
 
+/* 
+The ContactUs component is defined to render the contact information section of the website.
+Social media links are provided using anchor tags (<a>) with corresponding URLs. 
+*/
+
 const ContactUs = (props) => {
   return (
     <div className="container">

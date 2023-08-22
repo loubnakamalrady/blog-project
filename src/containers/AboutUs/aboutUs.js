@@ -1,6 +1,11 @@
 import React from 'react';
 import './aboutUs.css';
 
+/* 
+The AboutUs component represents the content and information about the blog or the author.
+Email contact information and social media links are included. 
+*/
+
 const AboutUs = (props) => {
     return (
         <div className='container'>

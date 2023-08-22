@@ -1,7 +1,18 @@
 import React, { useState, useEffect } from 'react';
-import './style.css';
+import './blogPost.css';
 import Card from '../UI/Card/card';
 import blogData from '../../blogJson/blog.json';
+
+/**
+The BlogPost component represents an individual blog post.
+The component receives the slug parameter from the route to identify the specific blog post to display.
+The blogData variable is imported from a JSON file, presumably containing data about blog posts.
+The component uses the useState and useEffect hooks to fetch and set the blog post data based on the provided slug.
+The blog post information, such as category, title, author, date, image, and text, is stored in the post state.
+The rendered output displays the blog post content within a Card component.
+The blog post image is loaded dynamically using the require function with the path imported from the JSON data.
+The blog post content, including the title and text, is displayed within the postContent section.
+ */
 
 export const BlogPost = (props) => {
   const [post, setPost] = useState({

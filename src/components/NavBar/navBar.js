@@ -1,6 +1,18 @@
 import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
-import './style.css';
+import './navBar.css';
+
+/*
+The Navbar component represents the navigation bar of the website.
+It is a functional component that uses the useState hook to manage the state of the search input.
+The component renders a div element with the CSS class navbar.
+Inside the navbar, there is an unordered list (navbarMenu) containing navigation links.
+The links are created using the NavLink component from react-router-dom, which enables navigation within the application.
+The search functionality includes a search input field and a search icon.
+The search input field's visibility is controlled by the search state variable.
+Clicking on the search icon toggles the visibility of the search input field.
+Submitting the search form triggers an alert with the message "Search".
+*/
 
 const Navbar = () => {
   const [search, setSearch] = useState(false);
