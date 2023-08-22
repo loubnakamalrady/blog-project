@@ -1,9 +1,18 @@
-body{
-  background: #e9eaed;
-  font-family: 'Oswald', sans-serif;
+
+.App {
+  justify-content: center;
+  min-height: 100vh;
 }
 
-.App{
-  width: 90%;
-  margin: 0 auto;
+.header {
+  text-align: center;
+  background-color: #333;
+  padding: 20px;
+  color: #fff;
 }
+
+.content {
+  flex-grow: 1;
+  padding: 0px;
+}
+

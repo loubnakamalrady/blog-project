@@ -1,13 +1,13 @@
 import React from 'react';
 import './style.css';
-import Card from '../../../components/UI/Card';
+import Card from '../../../components/UI/Card/card';
 
 
 const RecentPosts = (props) => {
   return(
     <div style={props.style}>
-        <Card style={{marginBottom: '20px'}}>
-            <div style={{textAlign: 'center'}}>
+        <Card classname="card">
+            <div className='content'>
 
                 <span>Featured</span>
                 <h2>Blog Project</h2>
@@ -23,8 +23,8 @@ const RecentPosts = (props) => {
 
         </Card>
     </div>
-   )
+   );
 
  }
 
-export default RecentPosts
+export default RecentPosts;

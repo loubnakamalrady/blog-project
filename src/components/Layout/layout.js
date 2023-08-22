@@ -1,6 +1,6 @@
 import React from 'react';
 import './style.css';
-import Sidebar from '../SideBar';
+import Sidebar from '../SideBar/sideBar';
 
 // Layout component
 const Layout = (props) => {
@@ -10,9 +10,9 @@ const Layout = (props) => {
         {props.children}
         <Sidebar />
       </div>
-      <div>
-        <h1>Blog Project Footer</h1>
-      </div>
+      <footer className="footer">
+      <p>&copy; 2023 Your Website. All rights reserved.</p>
+    </footer>
     </>
   );
 }

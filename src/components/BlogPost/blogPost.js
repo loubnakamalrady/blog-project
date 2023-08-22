@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import './style.css';
-import Card from '../UI/Card';
+import Card from '../UI/Card/card';
 import blogData from '../../blogJson/blog.json';
 
-const BlogPost = (props) => {
+export const BlogPost = (props) => {
   const [post, setPost] = useState({
     id: '',
     blogCategory: '',

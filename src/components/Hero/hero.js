@@ -1,7 +1,7 @@
 import React from 'react';
-import Card from '../UI/Card';
-import Logo from '../Logo';
-import Navbar from '../NavBar';
+import Card from '../UI/Card/card';
+import Logo from '../Logo/logo';
+import Navbar from '../NavBar/navBar';
 
 const Hero = () => {
   return (
