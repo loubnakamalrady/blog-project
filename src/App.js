@@ -22,6 +22,7 @@ function App() {
         <Route path="/contact-us"  component={ContactUS}/>
         <Route path="/post/:slug" component={Post} />
         </Routes>
+        <p>tss</p>
 
         
       </div>
